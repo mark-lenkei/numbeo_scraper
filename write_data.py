@@ -5,7 +5,7 @@ from time import sleep
 import pandas as pd
 import random
 
-def write_data_file(cities, file_name):
+def write_data_file(cities, region, file_name):
     data_columns = base_column_names + scrape_column_names
     data = []
 
@@ -15,4 +15,5 @@ def write_data_file(cities, file_name):
         sleep(random.uniform(1, 3))
     
     data_df = pd.DataFrame(data, columns=data_columns)
-    data_df.to_csv(f"./{file_name}_{date.today().strftime('%Y_%m_%d')}.csv", index=False)
+    data_df.to_csv(f"/home/mark/numbeo/data/{region}/{file_name}_{date.today().strftime('%Y_%m_%d')}.csv", index=False)
+
