@@ -1,6 +1,8 @@
-headers = headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) '
+headers = [{'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) '
                          'Chrome/112.0.0.0 Safari/537.36', 'Referrer': 'https://www.google.com/', 
-                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'}
+                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'},
+                         {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36', 'Referrer': 'https://www.numbeo.com/', 
+                         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8'}]
 
 base_url = "https://www.numbeo.com/cost-of-living/in/"
 
@@ -83,7 +85,7 @@ cities = [{"city":"Amsterdam", "country": "The Netherlands", "region": "Europe",
       {"city":"Caracas", "country": "Venezuela", "region": "South America",  "currency":"USD"},
       {"city":"Montreal", "country": "Canada", "region": "North America",  "currency":"CAD"},
       {"city":"Toronto", "country": "Canada", "region": "North America",  "currency":"CAD"},
-      {"city":"Cairo", "country": "Egypt", "region": "Africa",  "currency":"EGP"},
+      {"city":"Cairo-Egypt", "country": "Egypt", "region": "Africa",  "currency":"EGP"},
       {"city":"Tel-Aviv-Yafo", "country": "Israel", "region": "Asia",  "currency":"ILS"},
       {"city":"Sydney", "country": "Australia", "region": "Oceania",  "currency":"AUD"},
       {"city":"Johannesburg", "country": "South Africa", "region": "Africa",  "currency":"ZAR"},
@@ -94,7 +96,7 @@ cities = [{"city":"Amsterdam", "country": "The Netherlands", "region": "Europe",
       {"city":"Mexico-City", "country": "Mexico", "region": "North America",  "currency":"MXN"},
       {"city":"Washington", "country": "United States", "region": "North America",  "currency":"USD"},
       {"city":"Delhi", "country": "India", "region": "Europe",  "currency":"INR"},
-      {"city":"Shezen", "country": "China", "region": "Asia",  "currency":"CNY"},
+      {"city":"Shenzhen", "country": "China", "region": "Asia",  "currency":"CNY"},
       {"city":"Jakarta", "country": "Indonesia", "region": "Asia",  "currency":"IDR"},
       {"city":"Tehran", "country": "Iran", "region": "Asia",  "currency":"USD"},
       {"city":"Kuala-Lumpur", "country": "Malaysia", "region": "Asia",  "currency":"MYR"},

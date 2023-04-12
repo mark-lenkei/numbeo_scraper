@@ -12,7 +12,6 @@ def write_data_file(cities, file_name):
     for city in cities:
         city_data = scrape_city(city)
         data.append(city_data)
-        print(city)
         sleep(random.uniform(3, 6))
     
     data_df = pd.DataFrame(data, columns=data_columns)

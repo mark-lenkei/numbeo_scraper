@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import date
 import numpy as np
 import requests
+import random
 import re
 
 
@@ -10,7 +11,8 @@ import re
 def scrape_city(city):
     # Making request
     url = base_url+city["city"]
-    source = requests.get(url, headers=headers)
+    single_headers = headers[random.randint(0, 1)]
+    source = requests.get(url, headers=single_headers)
     soup = BeautifulSoup(source.text, 'html.parser')
 
     # Finding all the necessary parts in html
