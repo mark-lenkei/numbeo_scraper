@@ -31,7 +31,7 @@ def scrape_city(city):
         entries = None
         unique_contributors = None
 
-    return [date.today().strftime('%Y-%m-%d'), city["city"], city["currency"], family_of_four,
+    return [date.today().strftime('%Y-%m-%d'), city["city"], city["country"], city["region"], city["currency"], family_of_four,
             single_person_monthly_costs] + avg_prices + [entries, unique_contributors]
 
 
