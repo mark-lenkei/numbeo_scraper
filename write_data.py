@@ -15,5 +15,5 @@ def write_data_file(cities, file_name):
         sleep(random.uniform(3, 6))
     
     data_df = pd.DataFrame(data, columns=data_columns)
-    data_df.to_csv(f"/home/mark/numbeo/data/{file_name}_{date.today().strftime('%Y_%m_%d')}.csv", index=False)
+    data_df.to_csv(f"/home/mark/numbeo/data/daily/{file_name}_{date.today().strftime('%Y_%m_%d')}.csv", index=False)
 
