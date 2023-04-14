@@ -6,7 +6,7 @@ headers = [{'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) Apple
 
 base_url = "https://www.numbeo.com/cost-of-living/in/"
 
-cities = [{"city":"Amsterdam", "country": "The Netherlands", "region": "Europe", "currency":"EUR"},
+cities = [{"city":"Amsterdam", "country": "Netherlands", "region": "Europe", "currency":"EUR"},
       {"city":"Athens", "country": "Greece", "region": "Europe", "currency":"EUR"},
       {"city":"Belgrade", "country": "Serbia", "region": "Europe", "currency":"RSD"},
       {"city":"Berlin", "country": "Germany", "region": "Europe", "currency":"EUR"},
@@ -77,7 +77,7 @@ cities = [{"city":"Amsterdam", "country": "The Netherlands", "region": "Europe",
       {"city":"Ankara", "country": "Turkey", "region": "Asia",  "currency":"TRY"},
       {"city":"Saint-Petersburg", "country": "Russia", "region": "Europe",  "currency":"RUB"},
       {"city":"Rio-De-Janeiro", "country": "Brazil", "region": "South America",  "currency":"BRL"},
-      {"city":"Bogota", "country": "Columbia", "region": "South America",  "currency":"COP"},
+      {"city":"Bogota", "country": "Colombia", "region": "South America",  "currency":"COP"},
       {"city":"Buenos-Aires", "country": "Argentina", "region": "South America",  "currency":"USD"},
       {"city":"Brasilia", "country": "Brazil", "region": "South America",  "currency":"BRL"},
       {"city":"Sao-Paulo", "country": "Brazil", "region": "South America",  "currency":"BRL"},
